@@ -20,4 +20,7 @@ Looking out to improve my front-end skills, decided to dedicate some time playin
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn Profile](https://www.linkedin.com/in/carla-paiva/)
 
+
+[:fountain_pen: Codepen Profile](https://codepen.io/CarlaPaiva)
+
 :email: carla.paiva05@hotmail.com
