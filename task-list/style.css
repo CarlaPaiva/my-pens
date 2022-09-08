@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+	--gray: #f3f3f3;
+	--strong-pink: #82516a;
+	--pink: #a06483;
+	--black: #0F110C;
+	--white: #ffffff;
+}
+
+body {
+	color: var(--black);
+	font-family: Roboto;
+}
+
+
+.container {
+	margin: auto;
+	width: 50%;
+  height: 100vh;
+	--border: 1px solid black;
+	border-radius: 25px;
+	padding: 0.05em 0.5em;
+}
+
+.container__header {
+	width: 85%;
+	border-radius: 25px;
+}
+
+.container__list {
+	border-radius: 25px;
+	background-color: var(--gray);
+}
+
+.list__empty {
+	text-align: center;
+}
+
+.list__item {
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+	align-items: center;
+}
+
+.list__item input[type=checkbok] {
+	accent-color: var(--strong-pink);
+}
+
+.item__button {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--black);
+	text-align: left;
+}
+
+.item__button:hover {
+	color: var(--strong-pink)
+}
+
+.list__button {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--white);
+	text-align: left;
+	border: 1px solid var(--strong-pink);
+	background-color: var(--strong-pink);
+	border-radius: 25px;
+	padding: 0.2em 0.5em;
+}
+
+.list__button:hover {
+	cursor: pointer;
+	background-color: var(--pink);
+	border-color: var(--pink);
+}
+
+form {
+	margin-top: 1em;
+	display: grid;
+	grid-template-columns: 90% 10%;
+}
+
+form input:focus {
+	outline: none;
+}
