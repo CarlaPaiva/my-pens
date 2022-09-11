@@ -39,8 +39,12 @@ body {
 
 .list__item {
 	display: grid;
-	grid-template-columns: 10% 80% 10%;
+	grid-template-columns: 10% 70% 10%;
 	align-items: center;
+}
+
+.list__item p {
+	display: inline-grid;
 }
 
 .list__item input[type=checkbok] {
@@ -79,8 +83,14 @@ body {
 
 form {
 	margin-top: 1em;
-	display: grid;
-	grid-template-columns: 90% 10%;
+	margin-bottom: 1em;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+form input {
+	width: 75%;
 }
 
 form input:focus {
